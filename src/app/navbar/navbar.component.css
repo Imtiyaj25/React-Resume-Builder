@@ -34,6 +34,10 @@
     color: crimson;
     transition: all 0.3s ease;
 }
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
 .navbar .menu li a{
     display: block;
     color: black;
