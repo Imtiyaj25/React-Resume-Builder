@@ -41,9 +41,13 @@
     margin: 10px 0 0 65px;
     font-weight: 600;
     border-radius: 9px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(116, 145, 207);
     text-decoration: none;
     transition: all 0.5s ease;
+}
+.col-4 a:hover, .col-5 a:hover{
+    color: none;
+    background: rgb(116, 145, 207);
 }
 
 /* Products section */
