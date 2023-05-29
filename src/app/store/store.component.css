@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 60px 0;
+    font-family: sans-serif;
+}
+.row{
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+}
+.image-14{
+    background-image: url(src/assets/image-14.png);
+}
