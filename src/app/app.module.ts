@@ -5,18 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
-import { ProductsComponent } from './products/products.component';
 import { FeaturedComponent } from './featured/featured.component';
 import { StoreComponent } from './store/store.component';
+import { ProductComponent } from './product/product.component';
+import { BlocksComponent } from './blocks/blocks.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    ProductsComponent,
     FeaturedComponent,
-    StoreComponent
+    StoreComponent,
+    ProductComponent,
+    BlocksComponent
   ],
   imports: [
     BrowserModule,

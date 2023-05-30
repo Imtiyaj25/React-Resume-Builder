@@ -39,22 +39,102 @@
     background: rgb(255, 207, 207);
     margin-bottom: 60px;
     height: 300px;
-    width: 300px;
+    width: 275px;
 }
-.image-14{
-    background: url(src/assets/image-15.png);
-    background-size: cover;
+.rating  {
+    color: #fa0;
+    line-height: 22px;
+    margin: 0 2px;
+    font-size: 12px;
 }
-.image-14:hover{
-    transform: scale(1.1);
-    transition: 1s;
-    z-index: -1;
+.money {
+    font-size: 20px;
+    color: rgb(100, 104, 98);
+    font-weight: 700;
+    font-style: italic;
+    margin-right: 6px;
+}
+
+.price-old {
+    line-height: 18px;
+    display: inline-block;
+    text-decoration: line-through;
+    color: #888;
+    font-style: italic;
+    font-weight: 400;
+}
+.card:hover{
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 .row{
     justify-content: space-around;
     display: flex;
     margin: auto;
 }
-.image-14{
-    background-image: url(src/assets/image-14.png);
+
+/* Card images */
+.image-1{
+    background: url(src/assets/image-15.png);
+    background-size: cover;
+}
+.image-1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: -1;
+}.image-2{
+    background: url(src/assets/image-16.png);
+    background-size: cover;
+}
+.image-2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: -1;
+}.image-3{
+    background: url(src/assets/image-17.png);
+    background-size: cover;
+}
+.image-3:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: -1;
+}.image-4{
+    background: url(src/assets/image-18.png);
+    background-size: cover;
+}
+.image-4:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: -1;
+}.image-5{
+    background: url(src/assets/image-19.png);
+    background-size: cover;
+}
+.image-5:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: -1;
+}.image-6{
+    background: url(src/assets/image-24.png);
+    background-size: cover;
+}
+.image-6:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: -1;
+}.image-7{
+    background: url(src/assets/image-25.png);
+    background-size: cover;
+}
+.image-7:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: -1;
+}.image-8{
+    background: url(src/assets/image-26.png);
+    background-size: cover;
+}
+.image-8:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: -1;
 }

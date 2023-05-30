@@ -11,7 +11,7 @@
 }
 .home{
     display: flex;
-    background-image: url(src/assets/hero-image-4.jpg);
+    background-image: url(src/assets/hero-image-5.jpg);
     height: 100vh;
     color: #fff;
     background-size: cover;
@@ -45,4 +45,27 @@
 .home .home-content a:hover{
     color: crimson;
     background: none;
+}
+
+
+@media screen and (max-width: 947px){
+    .home{
+        background-position-x: right -300px;
+        background-repeat: initial;
+    }
+    .home .home-content .text-2{
+        font-size: 55px;
+        color: rgb(211, 211, 211);
+    }
+    .home .home-content .text-3{
+        font-size: 35px;
+    }
+    .home .home-content a{
+        font-size: 19px;
+        padding: 7px 20px;
+    }
+    .max-width{
+        max-width: 930px;
+        margin-top: 200px;
+    }
 }
