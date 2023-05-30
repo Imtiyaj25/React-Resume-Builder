@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200&display=swap'); */
 *{
     margin: 0;
     padding: 0;
@@ -74,8 +74,13 @@
         color: #fff;
     }
     .navbar .menu li{
-        display: block;
+        display: none;
     }
+    /* .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    } */
 }
 @media (max-width: 690px){
     .menu-btn{
@@ -96,16 +101,5 @@
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
-    }
-    .navbar .menu.active{
-        left: 0;
-    }
-    .navbar .menu li{
-        display: block;
-    }
-    .navbar .menu li a{
-        display: inline-block;
-        margin: 20px 0;
-        font-size: 25px;
     }
 }
