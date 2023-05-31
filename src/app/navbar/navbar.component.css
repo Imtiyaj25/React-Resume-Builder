@@ -65,7 +65,9 @@
     color: crimson;
     background: none;
 }
-
+.menu-btn{
+    display: none;
+}
 
 @media (max-width: 947px){
     .menu-btn{

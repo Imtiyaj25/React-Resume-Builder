@@ -10,6 +10,7 @@ import { StoreComponent } from './store/store.component';
 import { ProductComponent } from './product/product.component';
 import { BlocksComponent } from './blocks/blocks.component';
 import { FooterComponent } from './footer/footer.component';
+import { Comp1Component } from './comp1/comp1.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     StoreComponent,
     ProductComponent,
     BlocksComponent,
-    FooterComponent
+    FooterComponent,
+    Comp1Component
   ],
   imports: [
     BrowserModule,
