@@ -11,14 +11,15 @@
     text-align: center;
     text-decoration: none;
     margin: 25px 0 40px 0;
+    padding-top: 25px;
 }
 .comp p{
     font-size: 25px;
     font-weight: 500;
-    margin-top: 75px;
+    margin-top: 55px;
 }
-.comp a{
-    margin-top: 25px;
+.comp .text-1{
+    margin-bottom: -55px;
     text-decoration: none;
     font-weight: 700;
     font-size: 45px;
