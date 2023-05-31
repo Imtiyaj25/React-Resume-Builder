@@ -10,10 +10,17 @@
     width: 100%;
     text-align: center;
     text-decoration: none;
-    margin: 25px 0 0 25px;
+    margin: 25px 0 40px 0;
 }
 .comp p{
     font-size: 25px;
     font-weight: 500;
     margin-top: 75px;
+}
+.comp a{
+    margin-top: 25px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 45px;
+    color: black;
 }
