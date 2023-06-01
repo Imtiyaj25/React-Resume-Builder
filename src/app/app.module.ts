@@ -11,6 +11,7 @@ import { ProductComponent } from './product/product.component';
 import { BlocksComponent } from './blocks/blocks.component';
 import { FooterComponent } from './footer/footer.component';
 import { Comp1Component } from './comp1/comp1.component';
+import { Comp2Component } from './comp2/comp2.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { Comp1Component } from './comp1/comp1.component';
     ProductComponent,
     BlocksComponent,
     FooterComponent,
-    Comp1Component
+    Comp1Component,
+    Comp2Component
   ],
   imports: [
     BrowserModule,

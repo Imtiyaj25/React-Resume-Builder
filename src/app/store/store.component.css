@@ -1,140 +1,101 @@
 *{
     margin: 0;
-    font-family: sans-serif;
+    padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
-.container{
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
     margin: auto;
 }
-.card{
-    transition: all .2s ease-in-out 0s;
-    height: 450px;
-    width: 275px;
-    margin: 25px;
-    text-align: center;
-    justify-content: space-around;
-    border-radius: 10px;
-    border: 1px solid rgb(194, 194, 194);
+.home{
+    display: flex;
+    background-image: url(src/assets/image11.jpg);
+    height: 100vh;
+    color: #fff;
+    background-size: cover;
+    font-family: sans-serif;
 }
-.card a{
-    text-decoration: none;
-    font-size: 16px;
-    color: #555;
-    font-weight: 700;
-    text-transform: capitalize;
-    transition: all .3s;
+.home .max-width{
+    width: 100%;
+    display: flex;
 }
-.card:hover{
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+.home .home-content .text-1{
+    font-size: 177px;
+    color: 6579A5;
+    margin-bottom: -150px;
+    margin-left: -25px;
+    opacity: 0.2;
 }
-.card a:hover {
-    color: #fa0;
-    text-decoration: none;
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
 }
-.image{
-    background: rgb(255, 207, 207);
-    margin-bottom: 60px;
-    height: 300px;
-    width: 275px;
-}
-.rating  {
-    color: #fa0;
-    line-height: 22px;
-    margin: 0 2px;
-    font-size: 12px;
-}
-.money {
-    font-size: 20px;
-    color: rgb(100, 104, 98);
-    font-weight: 700;
-    font-style: italic;
-    margin-right: 6px;
-}
-
-.price-old {
-    line-height: 18px;
+.home .home-content a{
     display: inline-block;
-    text-decoration: line-through;
-    color: #888;
-    font-style: italic;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
     font-weight: 400;
+    border-radius: 5px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
 }
-.card:hover{
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
-}
-.row{
-    justify-content: space-around;
-    display: flex;
-    margin: auto;
+.home .home-content a:hover{
+    color: crimson;
+    background: none;
 }
 
-/* Card images */
-.image-1{
-    background: url(src/assets/image-15.png);
-    background-size: cover;
+
+@media screen and (max-width: 947px){
+    .home{
+        background-image: url(src/assets/hero-image-5.jpg);
+        background-position-x: right -300px;
+        background-repeat: initial;
+    }
+    .home .home-content .text-2{
+        font-size: 55px;
+        color: rgb(211, 211, 211);
+    }
+    .home .home-content .text-3{
+        font-size: 35px;
+    }
+    .home .home-content a{
+        font-size: 19px;
+        padding: 7px 20px;
+    }
+    .max-width{
+        max-width: 930px;
+        margin-top: 200px;
+    }
 }
-.image-1:hover{
-    transform: scale(1.1);
-    transition: 1s;
-    z-index: -1;
-}.image-2{
-    background: url(src/assets/image-16.png);
-    background-size: cover;
-}
-.image-2:hover{
-    transform: scale(1.1);
-    transition: 1s;
-    z-index: -1;
-}.image-3{
-    background: url(src/assets/image-17.png);
-    background-size: cover;
-}
-.image-3:hover{
-    transform: scale(1.1);
-    transition: 1s;
-    z-index: -1;
-}.image-4{
-    background: url(src/assets/image-18.png);
-    background-size: cover;
-}
-.image-4:hover{
-    transform: scale(1.1);
-    transition: 1s;
-    z-index: -1;
-}.image-5{
-    background: url(src/assets/image-19.png);
-    background-size: cover;
-}
-.image-5:hover{
-    transform: scale(1.1);
-    transition: 1s;
-    z-index: -1;
-}.image-6{
-    background: url(src/assets/image-24.png);
-    background-size: cover;
-}
-.image-6:hover{
-    transform: scale(1.1);
-    transition: 1s;
-    z-index: -1;
-}.image-7{
-    background: url(src/assets/image-25.png);
-    background-size: cover;
-}
-.image-7:hover{
-    transform: scale(1.1);
-    transition: 1s;
-    z-index: -1;
-}.image-8{
-    background: url(src/assets/image-26.png);
-    background-size: cover;
-}
-.image-8:hover{
-    transform: scale(1.1);
-    transition: 1s;
-    z-index: -1;
+
+
+@media screen and (max-width: 600px){
+    .home{
+        background-image: url(src/assets/hero-image-5.1.jpg);
+        /* background-position-x: right -300px; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .home .home-content .text-2{
+        font-size: 45px;
+        color: rgb(211, 211, 211);
+    }
+    .home .home-content .text-1{
+        font-size: 25px;
+    }
+    .home .home-content a{
+        font-size: 19px;
+        padding: 7px 20px;
+    }
+    .max-width{
+        max-width: 930px;
+        margin-top: 150px;
+    }
 }
