@@ -121,6 +121,11 @@
     align-items: center;
     justify-content: space-between;
 }
+.container{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
 .nav-item a{
     font-size: 18px;
     color: white;
