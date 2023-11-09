@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Resume-Builder/static/css/main.3fc58b52.css",
-    "main.js": "/React-Resume-Builder/static/js/main.f25e1e9a.js",
+    "main.css": "/React-Resume-Builder/static/css/main.408c0787.css",
+    "main.js": "/React-Resume-Builder/static/js/main.272785a6.js",
     "static/js/787.4b1552e3.chunk.js": "/React-Resume-Builder/static/js/787.4b1552e3.chunk.js",
     "static/media/dublin-resume-templates.avif": "/React-Resume-Builder/static/media/dublin-resume-templates.056ef147eb9a8a8ec5ac.avif",
     "static/media/visual-svg": "/React-Resume-Builder/static/media/visual-0c7080adf17f1f207276f613447c924f667dab34b7ac415cd7ef653172defd0b.e84aa15d122afc938542695171d8d024.svg",
@@ -9,12 +9,12 @@
     "static/media/feature-1-svg": "/React-Resume-Builder/static/media/feature-1-edf4481d69166ac81917d1e40e6597c8d61aa970ad44367ce78049bf830fbda5.b5bcb19a79f18ad86da54369cfdab304.svg",
     "static/media/feature-3-svg": "/React-Resume-Builder/static/media/feature-3-4e87a82f83e260488c36f8105e26f439fdc3ee5009372bb5e12d9421f32eabdd.c8d9dcc986e5887cb3ccaa770b0ca122.svg",
     "index.html": "/React-Resume-Builder/index.html",
-    "main.3fc58b52.css.map": "/React-Resume-Builder/static/css/main.3fc58b52.css.map",
-    "main.f25e1e9a.js.map": "/React-Resume-Builder/static/js/main.f25e1e9a.js.map",
+    "main.408c0787.css.map": "/React-Resume-Builder/static/css/main.408c0787.css.map",
+    "main.272785a6.js.map": "/React-Resume-Builder/static/js/main.272785a6.js.map",
     "787.4b1552e3.chunk.js.map": "/React-Resume-Builder/static/js/787.4b1552e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fc58b52.css",
-    "static/js/main.f25e1e9a.js"
+    "static/css/main.408c0787.css",
+    "static/js/main.272785a6.js"
   ]
 }
