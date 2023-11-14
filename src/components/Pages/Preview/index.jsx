@@ -22,6 +22,7 @@ function ParentComponent() {
 
   const handleNameChange = (newName) => {
     setName(newName);
+    
   };
 
   // -------------------------------Skills section -------------------------
@@ -382,8 +383,9 @@ function ParentComponent() {
           <div className ="preview-cnt">
             <div className ="preview-cnt-l bg-green text-white">
               <div className ="preview-blk">
+                
                 <div className ="preview-image">
-                  {name.img}
+                  
                 </div>
                 <div className ="preview-item preview-item-name">
                   <span className ="preview-item-val fw-6" id="fullname_dsp">

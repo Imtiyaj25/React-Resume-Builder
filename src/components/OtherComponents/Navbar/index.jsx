@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <a href="/" className="logo"><b>Build Resume</b></a>
+        <a href="/React-Resume-Builder" className="logo"><b>Build Resume</b></a>
         <button className={`menu-button ${isOpen ? 'open' : ''}`} onClick={toggleNavbar}>
           <div className="bar"></div>
           <div className="bar"></div>
