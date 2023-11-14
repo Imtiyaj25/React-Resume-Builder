@@ -38,7 +38,6 @@ const About = ({ name, onNameChange }) => {
                                 </div> 
 
                                 <div className="cols-3">
-                                    
                                     <div className = "form-elem">
                                         <label for = "" className = "form-label">Designation</label>
                                         <input name='designation' type="text" id='designation' placeholder='designation name' value={name.designation} onChange={handleInputChange} className='form-control' />
